@@ -5,6 +5,120 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lela - L'élégance au quotidien</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Styles pour l'agencement de l'image et du bouton */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f8f8f8;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icons input {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .hero {
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 50px 20px;
+    }
+
+    .hero-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .hero-content .hero-image {
+      max-width: 300px;
+      height: auto;
+    }
+
+    .cta-btn {
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .collections {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .collection-items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .collection-item {
+      text-align: center;
+      max-width: 200px;
+    }
+
+    .collection-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <!-- Header -->
@@ -30,7 +144,6 @@
   <section class="hero">
     <h1>L'élégance au quotidien</h1>
     <p>Découvrez notre collection de tee-shirts durables et élégants.</p>
-    <!-- Image au-dessus du bouton -->
     <div class="hero-content">
       <img src="votre-image.jpg" alt="Image de la collection" class="hero-image">
       <a href="collections.html" class="cta-btn">Découvrir la collection</a>
